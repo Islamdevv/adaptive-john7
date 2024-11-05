@@ -21,7 +21,8 @@
     padding-inline: 40px;
   }
 
-  #main {
+  #main,
+  #post {
     padding-block: 30px;
   }
 }
