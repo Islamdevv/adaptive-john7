@@ -18,6 +18,9 @@
   .work-text {
     gap: 10px;
   }
+  .footer-icons img {
+    max-width: 70px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -74,6 +77,17 @@
   .work-text {
     max-width: 370px;
     gap: 10px;
+  }
+
+  .work-content .box img {
+    width: 100%;
+  }
+
+  .footer-icons {
+    gap: 20px;
+  }
+  .footer-icons img {
+    max-width: 50px;
   }
 }
 
