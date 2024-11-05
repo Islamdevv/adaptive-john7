@@ -91,3 +91,56 @@ p {
 .main img {
   max-width: 220px;
 }
+
+#post {
+  padding-block: 50px;
+  background: #edf7fa;
+}
+
+.post-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.post-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.post-content .box {
+  max-width: 370px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  background: #fff;
+}
+
+.post-title p {
+  font-size: clamp(0.875rem, 0.75rem + 0.63vw, 1.25rem);
+}
+.post-title a {
+  color: #00a8cc;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+}
+
+.post-content .box h1 {
+  font-size: clamp(1rem, 0.833rem + 0.83vw, 1.5rem);
+}
+
+.post-content .box h5 {
+  font-size: clamp(0.813rem, 0.708rem + 0.52vw, 1.125rem);
+  font-weight: 400;
+}
+
+.post-content .box h5 span {
+  padding-inline: 10px;
+}
+
+.post-content .box p {
+  line-height: clamp(1.375rem, 1.271rem + 0.52vw, 1.688rem);
+}
