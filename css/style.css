@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Heebo, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: #000;
+}
+
+p {
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+}
+
+#header .container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 70px;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 100px;
+}
+
+.burger-menu {
+  display: none;
+  justify-content: flex-end;
+}
+.burger-menu span {
+  font-size: 28px;
+}
+#header {
+  padding-block: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+}
+
+.header a {
+  font-size: clamp(0.875rem, 0.75rem + 0.63vw, 1.25rem);
+  font-weight: 600;
+}
+
+#main {
+  padding-block: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.main-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.main-text h1 {
+  font-size: clamp(1.5rem, 1.042rem + 2.29vw, 2.875rem);
+}
+
+.main-text button {
+  padding: 8px 25px;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+  background: #ff6464;
+  color: #fff;
+}
+
+.main img {
+  max-width: 220px;
+}
