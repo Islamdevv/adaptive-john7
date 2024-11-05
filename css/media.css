@@ -11,6 +11,13 @@
   .container {
     padding-inline: 50px;
   }
+
+  .work-content {
+    gap: 25px;
+  }
+  .work-text {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -22,7 +29,8 @@
   }
 
   #main,
-  #post {
+  #post,
+  #work {
     padding-block: 30px;
   }
 }
@@ -52,6 +60,20 @@
   .post-content {
     flex-direction: column;
     align-items: center;
+  }
+
+  .work-title {
+    justify-content: center;
+  }
+
+  .work-content .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-text {
+    max-width: 370px;
+    gap: 10px;
   }
 }
 
